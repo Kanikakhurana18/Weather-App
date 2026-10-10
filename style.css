@@ -17,9 +17,12 @@ body{
 }
 .card{
     width: 300px;
-    height: 500px;
-    background-color: aqua;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.377);
     margin-top: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: 2px 2px 20px black;
 }
 .search{
     display: flex;
@@ -40,4 +43,92 @@ body{
     border-radius: 50%;
     border: none;
     padding: 5px;
+}
+.w1{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.w1 img{
+    width: 200px;
+    margin-top:-40px;
+}
+#temp{
+    font-size: 60px;
+    margin-top: -50px;
+}
+#city{
+    font-size: 40px;
+    margin-top:-20px;
+}
+.w2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+#invalid{
+    font-size: 10px;
+    margin-left: 23px;
+    margin-top: 3px;
+    color: rgba(56, 1, 1);
+    display: none;
+}
+.weatherstatus{
+    display: none;
+}
+.humidity{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+#th{
+    font-size: 20px;
+}
+.humidity img{
+    width: 70px;
+}
+.wind{   
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.wind img{
+    width: 70px;
+}
+#tw{
+    font-size: 20px;
+}
+.shape{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+}
+.shape:hover{
+    transform: translateX(10px);
+    transition: 1s;
+}
+.shape1{
+    left: 750px;
+    top: 100px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.shape2{
+    width: 100px;
+    height: 100px;
+    left: 460px;
+    top: 400px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
 }

@@ -8,12 +8,16 @@
     <link rel="shortcut icon" href="images.jpg" type="image/x-icon">
 </head>
 <body>
+    <div class="shape1 shape"></div>
+    <div class="shape2 shape"></div>
     <div class="back">
         <div class="card">
             <div class="search">
-                <input type="text" placeholder="search for a city">
+                <input type="text" id="cityInput" placeholder="search for a city">
                 <button id="btn"><img src="search.png" alt="search" width="10"></button>
             </div>
+            <h3 id="invalid">Invalid city</h3>
+
             <div class="weatherstatus">
                 <div class="w1">
                 <img src="animated/day.svg" alt="day">
@@ -35,5 +39,8 @@
             </div>
         </div>
     </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
